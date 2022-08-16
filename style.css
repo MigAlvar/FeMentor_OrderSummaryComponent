@@ -63,7 +63,7 @@ h1{
     align-items: left;
     font-size:14px;
     font-weight: 500;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 #highlight strong{
@@ -73,7 +73,7 @@ h1{
 #highlight a{
     color: hsl(245, 75%, 52%);
     padding: 10px;
-    padding-left:;
+    padding-right:18px;
     font-weight: 700;
     font-size: 13px;
     text-align: right;
