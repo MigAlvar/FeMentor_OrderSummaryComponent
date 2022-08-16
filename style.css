@@ -7,20 +7,26 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0px;
 }
 
 .container{
     background-color:   white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius:20px;
     font-family: "Red Hat Display";
-    font-weight: 400;
-    box-shadow: 0px 1px 23px hsl(224, 23%, 55%);
-    max-width: 300px;
+    box-shadow: 3px 19px 13px hsl(225, 56%, 89%);
+    max-width: 380px;
+    min-width: 250px;
     margin-top: 8%;
+
 }
 h1{
+    margin-top: 15px;
+    margin-bottom: 0px;
     color:hsl(223, 47%, 23%);
-    font-weight: bolder;
     font-size: 25px;
     font-weight: 900;
 }
@@ -31,13 +37,14 @@ h1{
 }
 
 .content{
-    padding: 0px 25px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px 0px 25px;
     width: 270px;
     text-align: center;
     color:hsl(224, 23%, 55%);
     font-weight: 500;
 }
-
 
 #highlight{
     background-color: hsl(225, 100%, 98%);
@@ -49,13 +56,14 @@ h1{
     justify-content: center;
     padding: 1px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 #highlight p{
-    align-items: center;
+    align-items: left;
     font-size:14px;
     font-weight: 500;
+    padding-right: 20px;
 }
 
 #highlight strong{
@@ -64,9 +72,10 @@ h1{
 }
 #highlight a{
     color: hsl(245, 75%, 52%);
-    padding: 20px;
+    padding: 10px;
+    padding-left:;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
     text-align: right;
 }
 
@@ -74,7 +83,7 @@ h1{
     color:hsl(224, 23%, 55%);
 }
 #icon{
-    padding:10px 10px 5px 10px
+    padding:10px 10px 5px 12px
 }
 
 .payment{
@@ -86,7 +95,7 @@ h1{
     box-shadow: 0px 12px 15px 3px lightgray;
 }
 
-.payment:hover{
+.payment:active{
     background-color: hsl(224, 23%, 55%);
 }
 
@@ -100,7 +109,7 @@ h1{
     text-decoration: none;
     color:hsl(224, 23%, 55%);
 }
-.cancel a:hover, a:active{
+.cancel a:active{
     color:hsl(223, 47%, 23%);
 }
 
